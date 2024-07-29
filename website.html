@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Timothy Le </title>
+        <link rel = "stylesheet" href = "website.css">
+
+        <script>
+            function changePage(){
+                window.location.href = "websitePage2.html"
+            }
+        </script>
+
+    </head>
+    <body style = "background-color: #FEF5EF;">
+        <!-- class vs ID: class is for multiple elements under one tag, and ID is used for unique elements-->
+        <div id = "name">
+            Timothy Le
+        </div>
+        <br>
+
+        <div id = "description">
+            I am currently a student at Santa Clara University in the College of Arts and Sciences pursuing a degree in Computer Science & Mathematics.
+        </div>
+
+        <div id = "email">
+            <a href = "mailto:timothyle105@gmail.com" target = _self>
+                Email:timothyle105@gmail.com
+            </a>
+        </div>
+
+        <div id = "phonenumber">
+            Phone Number:408-931-2691
+        </div>
+
+        <div id = "linkedin">
+            <a href = "https://www.linkedin.com/in/timothy-le-352a4a295/" target = _blank>
+                LinkedIn
+            </a>
+        </div>
+
+        <div id = "logo">
+            <img src = "SCU Logo.png" height = 200px; alt = "Santa Clara University Logo">
+        </div>
+
+        <div id = "nextPage">
+            <button style ="background-color:#862633 ; color: #FEF5EF; border-radius: 5px" onclick = "changePage()"> More About Me</button>
+        </div>
+        
+
+        <!-- NEED TO MAKE PAGE2.HTML SO IT CAN LINK WHEN BUTTON IS CLICKED-->
+
+    </body>
+</html>

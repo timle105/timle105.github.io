@@ -1,0 +1,70 @@
+div{
+    color:#862633;
+}/* not good practice but ok for this purpose*/
+
+a:link{
+    color:#862633;
+
+}
+#name{
+    
+    left: 0;
+    line-height: 0px;/* vertical shift*/
+    margin-top: -200px;/* vertical shift*/
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+    font-size: 50px; 
+}
+
+#description{
+    text-align: center;
+    margin-top: 300px; 
+    
+}
+
+#email{
+    text-align: center;
+    margin-top: 100px;
+    /* width: 300px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px; */
+}
+
+#phonenumber{
+    text-align: center;
+    margin-top: 50px;/* space in between the last top element
+    /* width: 300px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px; */
+}
+
+#linkedin{
+    text-align: center;
+    margin-top: 50px;
+    /* width: 300px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px; */
+}
+
+#logo{
+    /* text-align:left;
+    margin-top: 50px; */
+    /* width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px; */
+
+    text-align: center;
+    margin-left: -700px;
+    margin-top: -200px;
+}
+#nextPage{
+    text-align:center;
+    margin-top:50px;
+}
